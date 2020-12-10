@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -67,11 +67,6 @@
 		08FD4B2B1509BEA90004E1FA /* MKTBaseMockObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 08FD4B281509BEA90004E1FA /* MKTBaseMockObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		08FD4B2C1509BEA90004E1FA /* MKTBaseMockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FD4B291509BEA90004E1FA /* MKTBaseMockObject.m */; };
 		08FD4B2D1509BEA90004E1FA /* MKTBaseMockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FD4B291509BEA90004E1FA /* MKTBaseMockObject.m */; };
-		0E1A0AD21BEE648B0044C5BA /* OCHamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E1A0AD11BEE648B0044C5BA /* OCHamcrest.framework */; };
-		0E1A0AD31BEE648B0044C5BA /* OCHamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E1A0AD11BEE648B0044C5BA /* OCHamcrest.framework */; };
-		0E1A0AD51BEE64940044C5BA /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E1A0AD41BEE64940044C5BA /* OCHamcrestIOS.framework */; };
-		0E1A0AD61BEE64940044C5BA /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E1A0AD41BEE64940044C5BA /* OCHamcrestIOS.framework */; };
-		0E1A0AD71BEE64BA0044C5BA /* OCHamcrest.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0E1A0AD11BEE648B0044C5BA /* OCHamcrest.framework */; };
 		0E44F6C11C154E690007E1A4 /* MKTMissingInvocationCheckerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E44F6C01C154E690007E1A4 /* MKTMissingInvocationCheckerTests.m */; };
 		0E44F6C21C154E690007E1A4 /* MKTMissingInvocationCheckerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E44F6C01C154E690007E1A4 /* MKTMissingInvocationCheckerTests.m */; };
 		0E5F66331D20392D00D01554 /* ArgumentCaptorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5F66321D20392D00D01554 /* ArgumentCaptorTests.m */; };
@@ -545,9 +540,6 @@
 		247BA1271C335F5400B10720 /* MKT_TPDWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DDC079EF920524F16F93F2 /* MKT_TPDWeakProxy.m */; };
 		247BA1281C335F5500B10720 /* MKT_TPDWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 31DDC358ECB610A3EEDF1DA9 /* MKT_TPDWeakProxy.h */; };
 		247BA1291C335F5500B10720 /* MKT_TPDWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DDC079EF920524F16F93F2 /* MKT_TPDWeakProxy.m */; };
-		247BA12A1C33612500B10720 /* OCHamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E1A0AD11BEE648B0044C5BA /* OCHamcrest.framework */; };
-		247BA12B1C33612900B10720 /* OCHamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E1A0AD11BEE648B0044C5BA /* OCHamcrest.framework */; };
-		247BA12C1C33612A00B10720 /* OCHamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E1A0AD11BEE648B0044C5BA /* OCHamcrest.framework */; };
 		2AD030D61A8E4D7E001B43DC /* MKTAtMostTimes.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AD030D41A8E4D7E001B43DC /* MKTAtMostTimes.h */; };
 		2AD030D71A8E4D7E001B43DC /* MKTAtMostTimes.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AD030D41A8E4D7E001B43DC /* MKTAtMostTimes.h */; };
 		2AD030D81A8E4D7E001B43DC /* MKTAtMostTimes.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD030D51A8E4D7E001B43DC /* MKTAtMostTimes.m */; };
@@ -684,6 +676,13 @@
 		74A3BDDE19F76DF0006591C9 /* VerifyCountNeverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DDCACAAA78463D591CB091 /* VerifyCountNeverTests.m */; };
 		74A3BDDF19F76DF0006591C9 /* VerifyProgrammerErrorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DDCF493BD60433EC2CE5B4 /* VerifyProgrammerErrorTests.m */; };
 		74A3BDE019F76DF0006591C9 /* VerifyCountAtLeastTimesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DDC4EC077BF6043636A170 /* VerifyCountAtLeastTimesTests.m */; };
+		A723493A2582331E0084C514 /* OCHamcrest.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7234939258233130084C514 /* OCHamcrest.xcframework */; };
+		A72349422582331E0084C514 /* OCHamcrest.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7234939258233130084C514 /* OCHamcrest.xcframework */; };
+		A723494A2582331F0084C514 /* OCHamcrest.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7234939258233130084C514 /* OCHamcrest.xcframework */; };
+		A72349522582331F0084C514 /* OCHamcrest.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7234939258233130084C514 /* OCHamcrest.xcframework */; };
+		A723495A258233200084C514 /* OCHamcrest.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7234939258233130084C514 /* OCHamcrest.xcframework */; };
+		A7234962258233200084C514 /* OCHamcrest.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7234939258233130084C514 /* OCHamcrest.xcframework */; };
+		A723496A258233200084C514 /* OCHamcrest.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7234939258233130084C514 /* OCHamcrest.xcframework */; };
 		BB1703E0B53EAE270808B4C9 /* MKTSingletonSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = BB17021FCA430FAD53E07A7D /* MKTSingletonSwizzler.h */; };
 		BB17049F99AEF87E21119393 /* MKTSingletonSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = BB17021FCA430FAD53E07A7D /* MKTSingletonSwizzler.h */; };
 		BB17065730240A1DF17600F1 /* MKTSingletonSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = BB17024B02E780AE9F1DF220 /* MKTSingletonSwizzler.m */; };
@@ -872,7 +871,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
-				0E1A0AD71BEE64BA0044C5BA /* OCHamcrest.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -929,8 +927,6 @@
 		08FD4B281509BEA90004E1FA /* MKTBaseMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKTBaseMockObject.h; sourceTree = "<group>"; };
 		08FD4B291509BEA90004E1FA /* MKTBaseMockObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKTBaseMockObject.m; sourceTree = "<group>"; };
 		0E1563B41CE7E2A90037EBC8 /* XcodeWarnings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = XcodeWarnings.xcconfig; sourceTree = "<group>"; };
-		0E1A0AD11BEE648B0044C5BA /* OCHamcrest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCHamcrest.framework; path = "../Frameworks/OCHamcrest-7.1.2/OCHamcrest.framework"; sourceTree = "<group>"; };
-		0E1A0AD41BEE64940044C5BA /* OCHamcrestIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCHamcrestIOS.framework; path = "../Frameworks/OCHamcrest-7.1.2/OCHamcrestIOS.framework"; sourceTree = "<group>"; };
 		0E44F6C01C154E690007E1A4 /* MKTMissingInvocationCheckerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKTMissingInvocationCheckerTests.m; sourceTree = "<group>"; };
 		0E5F66321D20392D00D01554 /* ArgumentCaptorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArgumentCaptorTests.m; sourceTree = "<group>"; };
 		0E5F66391D209EBB00D01554 /* StubbingCopyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StubbingCopyTests.m; sourceTree = "<group>"; };
@@ -1006,6 +1002,7 @@
 		748491911A5919EC006A7579 /* MKTExecutesBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKTExecutesBlock.m; sourceTree = "<group>"; };
 		74A3BD8219F765E2006591C9 /* OCMockitoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCMockitoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74A3BDB319F76C5F006591C9 /* libocmockitoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = libocmockitoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7234939258233130084C514 /* OCHamcrest.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = OCHamcrest.xcframework; path = ../Carthage/Build/OCHamcrest.xcframework; sourceTree = "<group>"; };
 		BB17021FCA430FAD53E07A7D /* MKTSingletonSwizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKTSingletonSwizzler.h; sourceTree = "<group>"; };
 		BB17024B02E780AE9F1DF220 /* MKTSingletonSwizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKTSingletonSwizzler.m; sourceTree = "<group>"; };
 		BB33301C3CD22FFA40C8F3C3 /* MKTObjectArgumentGetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKTObjectArgumentGetter.m; sourceTree = "<group>"; };
@@ -1091,7 +1088,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E1A0AD51BEE64940044C5BA /* OCHamcrestIOS.framework in Frameworks */,
+				A723494A2582331F0084C514 /* OCHamcrest.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1099,7 +1096,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E1A0AD21BEE648B0044C5BA /* OCHamcrest.framework in Frameworks */,
+				A723493A2582331E0084C514 /* OCHamcrest.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1107,7 +1104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				247BA12A1C33612500B10720 /* OCHamcrest.framework in Frameworks */,
+				A723495A258233200084C514 /* OCHamcrest.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1115,7 +1112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				247BA12B1C33612900B10720 /* OCHamcrest.framework in Frameworks */,
+				A7234962258233200084C514 /* OCHamcrest.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1123,7 +1120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				247BA12C1C33612A00B10720 /* OCHamcrest.framework in Frameworks */,
+				A723496A258233200084C514 /* OCHamcrest.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1131,8 +1128,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A72349422582331E0084C514 /* OCHamcrest.xcframework in Frameworks */,
 				74A3BD9419F76630006591C9 /* OCMockito.framework in Frameworks */,
-				0E1A0AD31BEE648B0044C5BA /* OCHamcrest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1140,8 +1137,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A72349522582331F0084C514 /* OCHamcrest.xcframework in Frameworks */,
 				74A3BDC719F76C97006591C9 /* libocmockito.a in Frameworks */,
-				0E1A0AD61BEE64940044C5BA /* OCHamcrestIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1181,8 +1178,7 @@
 		08BDD5AB1350C59C00E5A443 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0E1A0AD11BEE648B0044C5BA /* OCHamcrest.framework */,
-				0E1A0AD41BEE64940044C5BA /* OCHamcrestIOS.framework */,
+				A7234939258233130084C514 /* OCHamcrest.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -2818,7 +2814,11 @@
 				INFOPLIST_FILE = "OCMockito-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.mockito.OCMockito.OCMockito-iOS";
 				PRODUCT_NAME = OCMockito;
 				SDKROOT = iphoneos;
@@ -2851,7 +2851,11 @@
 				INFOPLIST_FILE = "OCMockito-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.mockito.OCMockito.OCMockito-iOS";
 				PRODUCT_NAME = OCMockito;
 				SDKROOT = iphoneos;
@@ -2889,7 +2893,11 @@
 				);
 				INFOPLIST_FILE = "OCMockito-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.mockito.OCMockito.OCMockito-watchOS";
 				PRODUCT_NAME = OCMockito;
 				SDKROOT = watchos;
@@ -2923,7 +2931,11 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "OCMockito-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.mockito.OCMockito.OCMockito-watchOS";
 				PRODUCT_NAME = OCMockito;
 				SDKROOT = watchos;
@@ -2961,7 +2973,11 @@
 				);
 				INFOPLIST_FILE = "OCMockito-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.mockito.OCMockito.OCMockito-tvOS";
 				PRODUCT_NAME = OCMockito;
 				SDKROOT = appletvos;
@@ -2994,7 +3010,11 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "OCMockito-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.mockito.OCMockito.OCMockito-tvOS";
 				PRODUCT_NAME = OCMockito;
 				SDKROOT = appletvos;

@@ -1,7 +1,7 @@
 ![mockito](https://raw.githubusercontent.com/mockito/mockito.github.io/master/img/logo.png)
 
-[![Build Status](https://travis-ci.org/jonreid/OCMockito.svg?branch=master)](https://travis-ci.org/jonreid/OCMockito)
-[![Coverage Status](https://coveralls.io/repos/jonreid/OCMockito/badge.svg?branch=master)](https://coveralls.io/r/jonreid/OCMockito?branch=master)
+[![Build Status](https://travis-ci.org/jonreid/OCMockito.svg?branch=main)](https://travis-ci.org/jonreid/OCMockito)
+[![Coverage Status](https://coveralls.io/repos/jonreid/OCMockito/badge.svg?branch=main)](https://coveralls.io/r/jonreid/OCMockito?branch=main)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Cocoapods Version](https://cocoapod-badges.herokuapp.com/v/OCMockito/badge.png)](http://cocoapods.org/pods/OCMockito)
 [![Twitter Follow](https://img.shields.io/twitter/follow/qcoding.svg?style=social)](https://twitter.com/qcoding)
@@ -350,21 +350,16 @@ include any pods from their main targets:
 target 'MyTests' do
   inherit! :search_paths
   use_frameworks!
-  pod 'OCMockito', '~> 5.0'
+  pod 'OCMockito', '~> 6.0'
 end
 ```
-
-Use the following imports:
-
-    @import OCHamcrest;
-    @import OCMockito;
 
 ### Carthage
 
 Add the following to your Cartfile:
 
 ```
-github "jonreid/OCMockito" ~> 5.0
+github "jonreid/OCMockito" ~> 6.0
 ```
 
 Then drag the the built frameworks (both OCHamcrest and OCMockito) from the
@@ -373,43 +368,25 @@ into destination group's folder" disabled.
 
 ### Prebuilt Frameworks
 
-Prebuilt binaries are available on GitHub for
+A prebuilt binary is available on GitHub for
 [OCMockito](https://github.com/jonreid/OCMockito/releases/). You will also need
 [OCHamcrest](https://github.com/hamcrest/OCHamcrest/releases/).
-The binaries are packaged as frameworks:
+The binary is packaged as OCMockito.xcframework, containing these architectures:
+* macOS
+* iOS device
+* iOS simulator
+* tvOS device
+* tvOS simulator
+* watchOS device
+* watchOS simulator
 
-* __OCMockitoIOS.framework__ for iOS development
-* __OCMockito.framework__ for macOS development
-
-OCHamcrest comes in a similar scheme. Drag the appropriate frameworks for both
-both OCMockito and OCHamcrest into your project, specifying "Copy items into
-destination group's folder". Then specify `-ObjC` in your "Other Linker Flags".
-
-#### iOS Development:
-
-Use the following imports:
-
-	@import OCHamcrestIOS;
-	@import OCMockitoIOS;
-
-
-#### macOS Development:
-
-Add a "Copy Files" build phase to copy OCMockito.framework and
-OCHamcrest.framework to your Products Directory.
-
-Use the following imports:
-
-    @import OCHamcrest;
-    @import OCMockito;
-
+Drag the XCFramework into your project.
 
 ### Build Your Own
 
 If you want to build OCMockito yourself, clone the repo, then
 
 ```sh
-$ Frameworks/gethamcrest
 $ cd Source
 $ ./MakeDistribution.sh
 ```
